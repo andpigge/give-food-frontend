@@ -1,0 +1,15 @@
+.container {
+	max-width: scale(400px);
+	background-color: red;
+}
+
+.title {
+	display: block;
+	width: scale(400px);
+	margin: 0;
+	font-size: scale(18px);
+
+	@media (max-width: $tablet-portrait) {
+		color: white;
+	}
+}
