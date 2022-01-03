@@ -1,10 +1,19 @@
+import { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 
 import { Title } from '../components/title/index';
 
-export default function Home(): JSX.Element {
+const MainPage: NextPage = (): JSX.Element => {
+  const a = 1;
   return (
-    <Title/>
+    <>
+      <Head>
+        <title>Главная</title>
+      </Head>
+      <Title/>
+      <p>{a}</p>
+    </>
   );
-}
+};
+
+export default MainPage;

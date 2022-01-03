@@ -1,6 +1,5 @@
 import { FC } from 'react';
-import Image from 'next/image';
-import cn from 'classnames';
+import cn from 'classnames/bind';
 
 import styles from './title.module.css';
 
@@ -8,8 +7,8 @@ const cx = cn.bind(styles);
 
 export const Title: FC = (): JSX.Element => {
 	return (
-		<div className={cn(styles.container)}>
-			<h1 className={cn(styles.title)}>
+		<div className={cx('container')}>
+			<h1 className={cx('title')}>
 				Hello world
 			</h1>
 		</div>
