@@ -1,0 +1,7 @@
+@define-mixin hover-button {
+	opacity: .9;
+}
+
+@define-mixin hover-button-disabled {
+	opacity: 1;
+}
