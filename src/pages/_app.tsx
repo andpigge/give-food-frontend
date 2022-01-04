@@ -1,9 +1,7 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 
-import '../shared/styles/fonts.css';
-import '../shared/styles/vars.css';
-import '../shared/styles/normalize.css';
+import '../shared/styles/index.css';
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (

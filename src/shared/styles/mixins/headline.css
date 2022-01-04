@@ -1,0 +1,21 @@
+@define-mixin headline {
+	margin: 0;
+	color: var(--black);
+	font-family: "Source Serif Pro", Arial, sans-serif;
+	font-style: normal;
+}
+
+@define-mixin headline1 {
+	font-size: scale(48px);
+	line-height: scale(57.6px);
+}
+
+@define-mixin headline2 {
+	font-size: scale(32px);
+	line-height: scale(42.24px);
+}
+
+@define-mixin headline3 {
+	font-size: scale(20px);
+	line-height: scale(25px);
+}

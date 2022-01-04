@@ -1,0 +1,22 @@
+@define-mixin text {
+	margin: 0;
+	color: var(--black);
+	font-family: Rubik, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@define-mixin textLarge {
+	font-size: scale(24px);
+	line-height: scale(33.6px);
+}
+
+@define-mixin textMedium {
+	font-size: scale(20px);
+	line-height: scale(28px);
+}
+
+@define-mixin textSmall {
+	font-size: scale(16px);
+	line-height: scale(20px);
+}
