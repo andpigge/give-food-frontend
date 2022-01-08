@@ -36,13 +36,13 @@ export const Button: FC<IButton> = (props):JSX.Element => {
 			disabled={disabled}
 			{...buttonProps}
 		>
-			{icon && 
+			{/* {icon && 
 			<span className={cx('icon', {
 				'reload': icon === 'reload',
 				'basket': icon === 'basket',
 			})}>
 				{ icon === 'reload' ? <Reload/> : <Basket/> }
-			</span>}
+			</span>} */}
 			{children}
 		</button>
 	);
