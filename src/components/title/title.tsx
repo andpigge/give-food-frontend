@@ -16,10 +16,10 @@ export const Title: FC = (): JSX.Element => {
 			<Button type='button' appearance='primary' size='l' disabled>
 				Помочь проекту
 			</Button>
-			<Button type='submit' appearance='ghost' size='m'>
+			<Button type='submit' appearance='ghost' size='m' icon='reload'>
 				Отправить снова
 			</Button>
-			<Button type='button' appearance='green' size='s'>
+			<Button type='button' appearance='green' size='s' icon='basket'>
 				+
 			</Button>
 		</div>

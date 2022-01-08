@@ -1,7 +1,9 @@
 .button {
 	@mixin text;
 
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	box-sizing: border-box;
 	border: none;
 	border-radius: scale(8px);
@@ -19,6 +21,7 @@
 
 	&:disabled {
 		background-color: var(--red-dark);
+
 		&:hover {
 			@mixin hover-button-disabled;
 		}
@@ -46,15 +49,15 @@
 .l {
 	@mixin textLarge;
 
-	width: scale(272px);
-	height: scale(66px);
+	width: scale(304px);
+	height: scale(56px);
 }
 
 .m {
 	@mixin textSmall;
 
-	width: scale(304px);
-	height: scale(56px);
+	width: scale(272px);
+	height: scale(66px);
 }
 
 .s {
@@ -62,4 +65,17 @@
 
 	width: scale(262px);
 	height: scale(44px);
+}
+
+.icon {
+	display: inline-block;
+}
+
+.reload {
+	margin-right: scale(12px);
+	transform: translateY(scale(2px));
+}
+
+.basket {
+	margin-right: scale(5px);
 }

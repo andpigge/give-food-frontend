@@ -21,7 +21,8 @@
     "jsx": "preserve"
   },
   "include": [
-    "next-env.d.ts",
+    "next-env-custom.d.ts",
+    "svg.d.ts",
     "**/*.ts",
     "**/*.tsx"
 , "src/shared/breakpoints.js", "src/shared/helpers/scale.js"  ],
